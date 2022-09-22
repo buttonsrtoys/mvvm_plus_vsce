@@ -1,0 +1,21 @@
+{
+  "name": "mvvm-plus",
+  "displayName": "mvvm_plus",
+  "description": "mvvm+ View & ViewModel generator",
+  "version": "0.0.1",
+  "repository": "https://github.com/buttonsrtoys/mvvm_plus_vsce",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "dart",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}

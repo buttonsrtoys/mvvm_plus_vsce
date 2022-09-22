@@ -1,4 +1,5 @@
 {
+  "publisher": "RichardCoutts",
   "name": "mvvm-plus",
   "displayName": "mvvm_plus",
   "description": "mvvm+ View & ViewModel generator",

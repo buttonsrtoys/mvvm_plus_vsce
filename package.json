@@ -1,11 +1,11 @@
 {
   "publisher": "RichardCoutts",
-  "icon": "https://github.com/buttonsrtoys/mvvm_plus/blob/main/assets/MvvmPlusIcon.png",
+  "icon": "images/MvvmPlusIcon.png",
+  "repository": { "type": "git", "url": "https://github.com/buttonsrtoys/mvvm_plus_vsce" },
   "name": "mvvm-plus",
   "displayName": "mvvm+",
   "description": "mvvm+ View & ViewModel snippet",
-  "version": "0.0.2",
-  "repository": "https://github.com/buttonsrtoys/mvvm_plus_vsce",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.71.0"
   },

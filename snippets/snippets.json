@@ -1,9 +1,24 @@
 {
-	"MVVM+ View Widget and ViewModel Class": {
+	"MVVM+ View widget and ViewModel Class": {
 		"prefix": "mvvm+",
-		"description": "MVVM+ View Widget",
+		"description": "MVVM+ View widget (deprecated)",
 		"body": [
 			"class ${1:MyWidget} extends View<${1:MyWidget}ViewModel> {",
+			"\t${1:MyWidget}({super.key}) : super(builder: () => ${1:MyWidget}ViewModel());\n",
+			"\t@override",
+			"\tWidget build(BuildContext context) {",
+			"\t\treturn ${2:Container()};",
+			"\t}",
+			"}\n",
+			"class ${1:MyWidget}ViewModel extends ViewModel {",
+			"}"
+		]
+	},
+	"MVVM+ ViewWidget and ViewModel Class": {
+		"prefix": "MVVM+ ViewWidget",
+		"description": "MVVM+ ViewWidget",
+		"body": [
+			"class ${1:MyWidget} extends ViewWidget<${1:MyWidget}ViewModel> {",
 			"\t${1:MyWidget}({super.key}) : super(builder: () => ${1:MyWidget}ViewModel());\n",
 			"\t@override",
 			"\tWidget build(BuildContext context) {",
